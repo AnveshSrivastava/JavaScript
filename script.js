@@ -42,12 +42,47 @@
 // console.log(num.stat)
 
 
-var person={
-   firstname:"john",
-   lastname:"doe",
-   id:5522,
-   getinfo:function(){
-    return this.firstname + " " + this.lastname;
-   }
-};
-document.getElementById("demo").innerHTML=person.getinfo();
+// var person={
+//    firstname:"john",
+//    lastname:"doe",
+//    id:5522,
+//    getinfo:function(){
+//     return this.firstname + " " + this.lastname;
+//    }
+// };
+// document.getElementById("demo").innerHTML=person.getinfo();/
+
+// var person ={
+//    name: "Ramesh",
+//    age: 30,
+//    isMarried: true,
+//    adress:{
+//       street:"vijay nagar",
+//       flat:201
+//    }
+// }
+// var ob= new Object();
+// ob.name="annvesh"
+// ob.hob={}
+// ob.hob.sport="cricket"
+// ob.hob.drawing=true
+// ob.hob.exp=12
+
+// console.log(ob.name)
+// console.log(person.adress)
+// document.write(ob.name)
+
+// function myfunc(){
+//    var car="Buggati"
+//    document.getElementById("demo").innerHTML= typeof(car) + " " +car;
+// }
+// document.getElementById("demo").innerHTML=typeof(car) + " " +car;
+// function world(){
+//    var a="a is local to outer \n"
+//    function below(){
+//       var b="\n b is local to inner"
+//       document.write(b)
+//    }document.write(a)
+//    below()
+// }
+// world();
