@@ -86,3 +86,72 @@
 //    below()
 // }
 // world();
+
+
+
+// var myvar=10
+// function check(){
+//     console.log("Start function A")
+//     function check2(){
+//         console.log("In fuction B")
+//     }check2();
+// }check();
+// console.log("Global context")
+
+
+// var name="john"
+// function first(){
+//     var a="hello "
+//     second();
+//     console.log(a + name);
+// }
+// function second(){
+//     var b="hi "
+//     third();
+//     console.log(b + name);
+// }
+// function third(){
+//     var c="hola "
+//     console.log(c + name);
+// }first()
+
+
+// var a=5
+// function add(){
+//     var b=10
+//     console.log(a+b)
+//     function mul(){
+//         var c=48
+//         console.log(b*c);
+//     }mul()
+// }add()
+// var grade="D"
+// switch(grade){
+//     case "A":
+//         console.log("Good job")
+//         break;
+//     case "B":
+//             console.log("OK job")
+//             break;
+//     case "C":
+//         console.log("bad job")
+//         break;
+//     case "D":
+//         console.log("very bad job")
+//         break;
+//     default:
+//         console.log("Wrong input")
+// }
+// function myfunc(){
+//     alert("Hello")
+// }
+
+// function myfunc(name, age){
+//     document.write(name + " is " + age + " years old")
+// }
+
+
+function add(a,b){
+    console.log(a+b)
+    document.write(a+b)
+}add(10,20)
