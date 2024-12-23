@@ -149,9 +149,41 @@
 // function myfunc(name, age){
 //     document.write(name + " is " + age + " years old")
 // }
+//add(10,20)
 
+// function add(a,b){
+//     console.log(a+b)
+//     document.write(a+b)
+//     console.log(a-b)
+//     document.write(a-b)
+//     console.log(a*b)
+//     document.write(a*b)
+//     console.log(a/b)
+//     document.write(a/b)
+// }
 
-function add(a,b){
-    console.log(a+b)
-    document.write(a+b)
-}add(10,20)
+// var add=(a,b)=>{
+//     console.log(a+b)
+// };
+// a=15
+// b=56
+// add(a,b)
+
+// function myfunc(){
+// var a=3+3;
+// var b='3'+3;
+// var c="hello"+3
+// var demop=document.getElementById("demo")
+// demop.innerHTML=a+" "+b+" "+c;}
+
+var mycollection=[
+    1,
+    "Hello World",
+    true,
+    {name:"rahul",age:30},
+    function yello(){
+        console.log("hellnah");
+    },
+    ["Anya","Forger","Loid","Forger"]
+];
+console.log(mycollection);
