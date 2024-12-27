@@ -176,14 +176,76 @@
 // var demop=document.getElementById("demo")
 // demop.innerHTML=a+" "+b+" "+c;}
 
-var mycollection=[
-    1,
-    "Hello World",
-    true,
-    {name:"rahul",age:30},
-    function yello(){
-        console.log("hellnah");
-    },
-    ["Anya","Forger","Loid","Forger"]
-];
-console.log(mycollection);
+// var mycollection=[
+//     1,
+//     "Hello World",
+//     true,
+//     {name:"rahul",age:30},
+//     function yello(){
+//         console.log("hellnah");
+//     },
+//     ["Anya","Forger","Loid","Forger"]
+// ];
+// console.log(mycollection);
+
+
+// function info (first,last, lang){
+//     if(arguments.length===3){
+//         console.log(first);
+//         console.log(last);
+//         console.log(lang);
+//     }
+// }
+// function myfunc() {
+//     alert("Hola amigoos")
+// }
+
+// function over() {
+//     document.getElementById("mytext").style.color="red";
+
+// }function mount() {
+//     document.getElementById("mytext").style.color="magenta"
+// }
+
+
+// var con=confirm("DO YOU WANT TO CONTINUE?");
+// if(con==true){
+//     alert("User is a goat");
+// }else{
+//     alert("User is a bitch")
+// }
+
+// var a=Number(prompt("ENTER A="));
+// var b=Number(prompt("ENTER B="));
+
+// alert(a+b)
+
+// var q="Guess 10+10";
+
+// for(var i=0;i<=3;i++){
+//     if(i==3){
+//         alert("Cannot attemp now");
+//         break;
+//     }
+//     var res=prompt(q,"0");
+//     if(res!="20"){
+//         confirm("Wrong. Try again")
+//     }else{
+//         alert("Correct")
+//     }
+// }
+// function redirect() {
+//     window.location="https://www.google.com/search?q=heaven+images&rlz=1C1RXQR_en-GBIN1069IN1069&oq=heven+im&gs_lcrp=EgZjaHJvbWUqCQgBEAAYChiABDIGCAAQRRg5MgkIARAAGAoYgAQyCQgCEAAYChiABDIJCAMQABgKGIAEMgkIBBAAGAoYgAQyCQgFEAAYChiABDIJCAYQABgKGIAEMgkIBxAAGAoYgAQyCQgIEAAYChiABDIJCAkQABgKGIAE0gEKMTUyODVqMGoxNagCCLACAQ&sourceid=chrome&ie=UTF-8#vhid=rOGC6NRsd76M2M&vssid=__ExuZ_D5Jt2c4-EPiOTt8Q8_50"
+// }
+// document.write("You are going to heven");
+// setTimeout('redirect()',10000);
+
+
+
+function validate() {
+    var x=document.forms["myForm"]["fname"].value;
+    if(x==null || x==""){
+        alert("Fill the first name")
+        return false;
+    }
+}

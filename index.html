@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,78 @@
 </head>
 <body>
     <input type="button" onclick="myfunc()" value="TRY IT">
-    <input type="button" onclick="myfunc()" value="Say hello">
+    <input type="button" onclick="window.print()" value="Say hello">
+    <h2 id="mytext" onmouseout="mount()" onmouseover="over()">"Hello Nigesh"</h2>
     <p id="demo"></p>
+
+    
+</body>-->
+<!-- </html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login and Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- <div class="form-container" id="login-form">
+    <h2>Login</h2>
+    <form>
+      <label for="login-email">Email</label>
+      <input type="email" id="login-email" placeholder="Enter your email" required>
+      <label for="login-password">Password</label>
+      <input type="password" id="login-password" placeholder="Enter your password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p class="toggle-link">Don't have an account? <a href="#" onclick="showSignup()">Sign Up</a></p>
+  </div>
+
+  <div class="form-container" id="signup-form" style="display: none;">
+    <h2>Sign Up</h2>
+    <form>
+      <label for="signup-name">Name</label>
+      <input type="text" id="signup-name" placeholder="Enter your name" required>
+      <label for="signup-age">Age</label>
+      <input type="number" id="signup-age" placeholder="Enter your age" required>
+      <label for="signup-gender">Gender</label>
+      <select id="signup-gender" required>
+        <option value="" disabled selected>Select your gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <label for="signup-email">Email</label>
+      <input type="email" id="signup-email" placeholder="Enter your email" required>
+      <label for="signup-phone">Phone</label>
+      <input type="tel" id="signup-phone" placeholder="Enter your phone number" required>
+      <label for="signup-password">Password</label>
+      <input type="password" id="signup-password" placeholder="Create a password" required>
+      <button type="submit">Sign Up</button>
+    </form>
+    <p class="toggle-link">Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+  </div>
+
+  <script>
+    function showSignup() {
+      document.getElementById('login-form').style.display = 'none';
+      document.getElementById('signup-form').style.display = 'block';
+    }
+
+    function showLogin() {
+      document.getElementById('signup-form').style.display = 'none';
+      document.getElementById('login-form').style.display = 'block';
+    }
+  </script> -->
+
+
+  <form name = "myForm" action="demo_form.asp" onsubmit="return validate()" method="post">
+    First Name: <input type="text" name="fname" >
+    <input type="submit" value="Submit">
+  </form>
+
+  <script src="script.js"></script>
 </body>
 </html>
