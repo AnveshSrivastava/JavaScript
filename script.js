@@ -244,8 +244,27 @@
 
 function validate() {
     var x=document.forms["myForm"]["fname"].value;
+    var y=document.forms["myForm"]["number"].value;
+    var z=document.forms["myForm"]["email"].value;
+    var atpos=z.indexOf("@");
+    var dotpos=x.lastIndexOf(".");
     if(x==null || x==""){
         alert("Fill the first name")
         return false;
     }
+
+    if(y.length!=10){
+        alert("Enter 10 digit mobile number");
+        return false;
+    }
+    if(y.match(/^[0-9]{10}$/)){
+        alert("Only digits please")
+    }
+
+    if(atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+{
+    alert("Not a valid email");
+    return false;
+}
+
 }
